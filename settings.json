@@ -1,0 +1,198 @@
+{
+	// "http.proxy": "http://127.0.0.1:8118",
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 100,
+	"editor.fontFamily": "Operator Mono SSm Lig",
+	// "editor.fontFamily": "Cascadia Code",
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "400",
+	"editor.fontSize": 19,
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.language.colorizedBracketPairs": [
+		["[", "]"],
+		["(", ")"],
+		["{", "}"],
+		["<", "</"],
+		["<", "/>"]
+	],
+	"editor.cursorBlinking": "expand",
+	"editor.cursorWidth": 3,
+	"editor.formatOnSave": true,
+	"editor.parameterHints.enabled": false,
+	"editor.inlayHints.enabled": "off",
+	"editor.overviewRulerBorder": false,
+	"editor.padding.bottom": 14,
+	"editor.padding.top": 14,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.foldingHighlight": false,
+	"editor.guides.indentation": false,
+	"editor.guides.highlightActiveIndentation": false,
+	"editor.inlineSuggest.enabled": true,
+	"editor.minimap.enabled": false,
+	"editor.codeLens": false,
+	"workbench.colorTheme": "Moonlight II Italic",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "vscode-great-icons",
+	"workbench.startupEditor": "none",
+	"workbench.layoutControl.enabled": false,
+	"workbench.sideBar.location": "right",
+	"workbench.tree.indent": 12,
+	"workbench.tree.renderIndentGuides": "none",
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"terminal.integrated.fontSize": 18,
+	"terminal.integrated.fontWeight": 400,
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell",
+			"args": ["-NoLogo"]
+		}
+	},
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+	"prettier.endOfLine": "auto",
+	"prettier.arrowParens": "avoid",
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.openEditors.visible": 0,
+	"breadcrumbs.enabled": false,
+	"customizeUI.activityBar": "bottom",
+	"customizeUI.statusBarPosition": "under-panel",
+	"customizeUI.fontSizeMap": {
+		"13px": "14px",
+		"12px": "13px",
+		"window-title": "12px",
+		"tab-title": "14px",
+		"monospace": "10.5px",
+		"menu": "13px"
+	},
+	"customizeUI.listRowHeight": 32,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[svelte]": {
+		// "editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"files.associations": {
+		"*.js": "javascript",
+		"*.svelte": "svelte"
+	},
+	"emmet.showSuggestionsAsSnippets": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"cSpell.enabledLanguageIds": [
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact",
+		"python",
+		"html",
+		"css",
+		"vue",
+		"svelte",
+		"astro",
+		"php",
+		"rust",
+		"go",
+		"blade",
+		"json",
+		"yml",
+		"markdown",
+		"plaintext"
+	],
+	"cSpell.userWords": [
+		"chakra",
+		"datasource",
+		"Hono",
+		"jbrave",
+		"laravel",
+		"nums",
+		"nuxt",
+		"radash",
+		"rtype",
+		"strs"
+	],
+	"svelte.enable-ts-plugin": true,
+	"update.mode": "manual",
+	"update.enableWindowsBackgroundUpdates": false,
+	"vitest.commandLine": "npx vitest",
+	"vitest.enable": true,
+	"errorLens.fontStyleItalic": true,
+	"php.suggest.basic": false,
+	"emmet.excludeLanguages": ["markdown", "php"],
+	"php.format.codeStyle": "K&R",
+	"php.problems.exclude": {
+		"/": [407],
+		"vendor/symfony/http-kernel": true,
+		"vendor/symfony/routing": true,
+		"storage/framework/views": true
+	},
+	"php.validate.enable": false,
+	"bladeFormatter.format.indentSize": 2,
+	"bladeFormatter.format.noMultipleEmptyLines": true,
+	"editor.linkedEditing": true,
+	"http.proxyStrictSSL": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": []
+	},
+	"dotenv.enableAutocloaking": false,
+	"fiveServer.php.executable": "C:\\xampp\\php\\php.exe",
+	"code-runner.executorMapByGlob": {
+		"*.js": "bun",
+		"*.ts": "bun",
+		"*.py": "python3"
+	},
+	"code-runner.showExecutionMessage": false,
+	"python.formatting.autopep8Args": ["--indent-size=2", "--ignore=E121"],
+	"python.formatting.provider": "autopep8",
+	"indentRainbow.includedLanguages": ["python"],
+	"indentRainbow.colors": [
+		"rgba(80, 250, 123,0.15)",
+		"rgba(139, 233, 253,0.15)",
+		"rgba(189, 147, 249,0.15)",
+		"rgba(241, 250, 140,0.15)"
+	],
+	"AREPL.printResultPlacement": "bottom",
+	"AREPL.showFooter": false,
+	"prettier.bracketSameLine": true,
+	"python.analysis.inlayHints.functionReturnTypes": true,
+	"python.analysis.inlayHints.variableTypes": true,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"totalTypeScript.hideAllTips": false,
+	"totalTypeScript.hideBasicTips": false,
+	"window.commandCenter": true,
+	"console-ninja.featureSet": "Pro",
+	"console-ninja.toolsToEnableSupportAutomaticallyFor": {
+		"live-server": true,
+		"live-preview": true
+	}
+}
